@@ -89,6 +89,10 @@ a {
 /********************/
 /*team section*/
 /********************/
+.team-section h1 {
+  text-align: center;
+  color: #3b5bdb;
+}
 .team-member {
   text-align: center;
   width: 30%;
@@ -104,4 +108,20 @@ a {
 }
 .member-name {
   color: #3b5bdb;
+}
+/********************/
+/*footer section*/
+/********************/
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 30px;
+}
+footer h1 {
+  font-family: "Yeseva One", cursive;
+}
+footer p {
+  font-size: 16px;
 }
