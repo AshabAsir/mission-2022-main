@@ -1,5 +1,5 @@
 /********************/
-/*general section*/
+/*reuseable section*/
 /********************/
 body {
   margin: 0;
@@ -45,9 +45,10 @@ a {
   border-radius: 5px;
 }
 
-/********************/
-/*header section*/
-/********************/
+/**************************************************************/
+/*header section*/ /*strategy section 1*/
+/*strategy section 2*/
+/**************************************************************/
 .half-width {
   width: 50%;
 }
@@ -59,7 +60,11 @@ a {
 }
 .img-box img {
   width: 80%;
+  border-radius: 10px;
 }
+/********************/
+/*header section*/
+/********************/
 .heading-box h1 {
   font-family: "Yeseva One", cursive;
 }
@@ -69,8 +74,30 @@ a {
   padding-left: 10px;
 }
 /********************/
+/*strategy section 1*/
+/********************/
+.strategy-section-1 {
+  background-image: url("images/shapes/shape-1.png");
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  background-size: cover;
+  background-size: 20%;
+}
+.strategy-section-2 {
+  background-image: url("images/shapes/shape-1.png");
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+
+  background-size: cover;
+  background-size: 20%;
+}
+
+/********************/
 /*Mission section*/
 /********************/
+.mission-section h1 {
+  text-align: center;
+}
 .mission-items {
   width: 100%;
 }
@@ -79,21 +106,29 @@ a {
   flex-direction: column;
   padding: 20px;
   width: 33.3%;
-  background-image: linear-gradient(45deg, #bac8ff, #748ffc);
   border-radius: 5px;
+}
+.card-1 {
+  background-color: #dbe4ff;
+}
+.card-2 {
+  background-color: #e5dbff;
+}
+.card-3 {
+  background-color: #f3d9fa;
 }
 .mission-img {
   width: 150px;
   height: 150px;
 }
 /********************/
-/*team section*/
+/*Testimonial section*/
 /********************/
-.team-section h1 {
+.testimonial-section h1 {
   text-align: center;
   color: #3b5bdb;
 }
-.team-member {
+.client {
   text-align: center;
   width: 30%;
   border-radius: 5px;
@@ -101,12 +136,12 @@ a {
   padding: 10px;
 }
 
-.team-member img {
+.client img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
 }
-.member-name {
+.client-name {
   color: #3b5bdb;
 }
 /********************/
@@ -117,7 +152,7 @@ footer {
   background-color: black;
   color: white;
   text-align: center;
-  padding: 20px 30px;
+  padding: 20px 0px;
 }
 footer h1 {
   font-family: "Yeseva One", cursive;
