@@ -1,0 +1,88 @@
+/********************/
+/*general section*/
+/********************/
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 50px;
+  line-height: 1;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  line-height: 0.7px;
+}
+p {
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 700;
+}
+.container {
+  width: 1140px;
+  margin: 0px auto 120px auto;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.indigo-color {
+  color: #3b5bdb;
+}
+.link-btn {
+  display: inline-block;
+  margin-bottom: 10px;
+  background-color: #3b5bdb;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/********************/
+/*header section*/
+/********************/
+.half-width {
+  width: 50%;
+}
+.img-box {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-box img {
+  width: 80%;
+}
+.heading-box h1 {
+  font-family: "Yeseva One", cursive;
+}
+.heading-box {
+  border-left: 5px solid #3b5bdb;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+/********************/
+/*Mission section*/
+/********************/
+.mission-items {
+  width: 100%;
+}
+.mission-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 33.3%;
+  background-image: linear-gradient(45deg, #bac8ff, #748ffc);
+  border-radius: 5px;
+}
+.mission-img {
+  width: 150px;
+  height: 150px;
+}
