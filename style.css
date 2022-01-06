@@ -86,3 +86,22 @@ a {
   width: 150px;
   height: 150px;
 }
+/********************/
+/*team section*/
+/********************/
+.team-member {
+  text-align: center;
+  width: 30%;
+  border-radius: 5px;
+  background-image: linear-gradient(45deg, #bac8ffa1, #748ffc75);
+  padding: 10px;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.member-name {
+  color: #3b5bdb;
+}
